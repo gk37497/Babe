@@ -32,6 +32,15 @@ export default function Home({ allPostsData }) {
                                    Хариу
                               </small>
                          </li>
+                         <li className={utilStyles.listItem}>
+                              <Link href={`/table`}>
+                                   <a>Бодлого</a>
+                              </Link>
+                              <br />
+                              <small className={utilStyles.lightText}>
+                                   15 бодлого
+                              </small>
+                         </li>
                     </ul>
                </section>
           </Layout>
